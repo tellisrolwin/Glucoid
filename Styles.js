@@ -59,4 +59,25 @@ export const styles = StyleSheet.create({
     alignSelf: "center",
     backgroundColor: "#3853b5",
   },
+  outputView: {
+    flex: 1,
+    //backgroundColor: "#333",
+    paddingTop: elementWidth * 0.3,
+    paddingRight: elementWidth * 0.05,
+    paddingLeft: elementWidth * 0.05,
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  outputFormatText: {
+    backgroundColor: "#fff",
+    color: "#111",
+    fontSize: elementWidth * 0.05,
+    alignSelf: "flex-start",
+  },
+  myTextOutput: {
+    //backgroundColor: "#fff",
+    color: "#fff",
+    fontSize: elementWidth * 0.1,
+    alignSelf: "flex-end",
+  },
 });
